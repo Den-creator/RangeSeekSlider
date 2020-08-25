@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0019F3D124F5937000363909 /* RangeSeekSliderTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* RangeSeekSliderTests.xctest */; };
+		0019F3D224F5937700363909 /* RangeSeekSliderDemo.app in Resources */ = {isa = PBXBuildFile; fileRef = CE9937551E70236800EA982A /* RangeSeekSliderDemo.app */; };
+		0019F3D324F5937F00363909 /* RangeSeekSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* RangeSeekSlider.framework */; };
 		CE00D96E1E7AA99A0032CA93 /* CustomRangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00D96D1E7AA99A0032CA93 /* CustomRangeSeekSlider.swift */; };
 		CE1967FE1E7668A300DBAE72 /* RangeSeekSlider.swift in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RangeSeekSlider.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE2FEE5A1E7A639C00D396B5 /* RangeSeekSliderDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = CE3D49B51E712B840071E992 /* RangeSeekSliderDelegate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,6 +95,7 @@
 			files = (
 				CED789241E75A57B00900B25 /* CoreGraphics.framework in Frameworks */,
 				CED789261E75A58100900B25 /* UIKit.framework in Frameworks */,
+				0019F3D324F5937F00363909 /* RangeSeekSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,9 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0019F3D224F5937700363909 /* RangeSeekSliderDemo.app in Resources */,
 				CEF0136C1E72674F00DCF3D9 /* Assets.xcassets in Resources */,
 				CEF273EC1E702419003AA995 /* LaunchScreen.storyboard in Resources */,
 				CEF273ED1E70241B003AA995 /* Main.storyboard in Resources */,
+				0019F3D124F5937000363909 /* RangeSeekSliderTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
